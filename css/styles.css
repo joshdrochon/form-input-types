@@ -5,9 +5,23 @@
     transform: translate(-50%, -50%);
     font-size: 100px;
 }
-
-.container {
+body {
+  margin: 0;
+}
+.container-img {
     position: relative;
     text-align: center;
     color: white;
+    margin:0px;
+}
+
+img{
+  width:100%
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+    font-size: 50px;
 }
